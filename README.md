@@ -1,55 +1,46 @@
-# Lists — PRIMM Activities
+# PRG1: Lists (PRIM activities)
 
-Structured Python exercises for learning to work with lists, using the
-**PRIMM methodology** (Predict, Run, Investigate, Modify, Make).
+Day 5, session 1. Four activities, each in its own folder, code and tasks together.
 
-## How this repo is organised
+You have already read lists four times this week, in the sign-up cleaner, the
+record parser, the loop accumulators and the mailing list. Today they get a name.
 
-There are two problems, each split into five short files — one per PRIMM step.
-Work through each problem in order, file by file.
+## PRIM
 
-```
-problem1/   Playlist manager
-problem2/   Score analyser
+| Step | What you do |
+|---|---|
+| **Predict** | Say what the code will do **before** you run it. Write it down. |
+| **Run** | Run it. Compare against your prediction. |
+| **Investigate** | Work out *why* it behaves that way. |
+| **Modify** | Change something specific, predicting the effect before each change. |
 
-01_predict.py       Read the code and write down predictions — don't run yet
-02_run.py           Run it and compare to your predictions
-03_investigate.py   Uncomment experiments one at a time and explore
-04_modify.py        Make specific changes to working code
-05_make.py          Write your own solution from scratch
-```
+Working remotely today. One of you shares a screen and drives, the other reads
+and questions, and you swap every fifteen minutes. Set a timer, because nobody
+remembers otherwise.
+
+## The activities
+
+| Folder | The job it does |
+|---|---|
+| `activity-1-playlist/` | Manages a music queue |
+| `activity-2-score-analysis/` | Reports on a set of exam results |
+| `activity-3-in-place-or-new/` | Shows which operations change a list and which hand back a new one |
+| `activity-4-broken-lists/` | Three faults, none of which crash |
+
+Activity 3 is the important one. It is the difference between lists and the
+strings you met yesterday, and it is where the faults in activity 4 come from.
+
+## If you finish
+
+| Folder | Focus |
+|---|---|
+| `stretch-1-sorting/` | Sorting, and ordering it the way a person would expect |
+| `stretch-2-lists-of-lists/` | A first look at a list whose items are themselves lists |
 
 ## Running a file
 
-From the repo root:
-```bash
-python problem1/01_predict.py
-python problem1/02_run.py
-# ... and so on
+```
+python activity-1-playlist/playlist.py
 ```
 
-## The PRIMM steps
-
-| File | What to do |
-|---|---|
-| `01_predict.py` | Read only — write down what you think will happen before running anything |
-| `02_run.py` | Run it — check your predictions and explain every surprise |
-| `03_investigate.py` | Uncomment one block at a time — each is a small experiment |
-| `04_modify.py` | Follow the instructions to change working code |
-| `05_make.py` | Write the solution yourself using the brief provided |
-
-## What each problem covers
-
-**Problem 1 — Playlist manager**
-Adding and removing items with `.append()`, `.pop()`, `.insert()`, and
-`.remove()`. Negative indexing. Checking membership with `in`.
-
-**Problem 2 — Score analyser**
-Filtering a list into categories using a loop. Using `max()`, `min()`,
-`sum()`, and `len()`. Sorting with `.sort()` and `sorted()`.
-Formatting numbers in f-strings with `:.1f`.
-
----
-
-**It is not a race.** Getting through both problems up to Modify and
-understanding every line is a good session.
+If `python` is not recognised, use `python3` instead.
