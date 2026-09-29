@@ -3,7 +3,7 @@
 Day 5, session 1. Four activities, each in its own folder, code and tasks together.
 
 You have already read lists four times this week, in the sign-up cleaner, the
-record parser, the loop accumulators and the mailing list. Today they get a name.
+record parser, the loop accumulators and the mailing list. 
 
 ## PRIM
 
